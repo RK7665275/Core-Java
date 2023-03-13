@@ -20,11 +20,39 @@ public class Arrays {
 //		marks [3] = 45;
 		
 //	3.	//decleration,memory allocation and initialiation in one statement
-		int [] marks = {10, 20, 30, 44};  
+//		int [] marks = {10, 20, 30, 44};  
+//		
+//		System.out.println(marks[3]);
+//		
+//		System.out.println(marks.length);
 		
-		System.out.println(marks[3]);
+//		int [] marks = {10, 20, 30, 40};
+//		
+//		for (int i=0;i<marks.length;i++) {
+//			//System.out.print(marks[i]);
+//			System.out.printf("%3d",marks[i]);
+//		}
+//		
 		
-		System.out.println(marks);
+		
+//		int [] marks = {10, 20, 30, 40};
+//		
+//		for (int i=marks.length-1;i>=0;i--) {
+//			//System.out.println(marks[i]);
+//			System.out.printf("%3d",marks[i]);
+//		}
+		
+		//For Each Loop
+		
+	int [] marks = {10, 20, 30, 40};
+		
+		for (int a : marks) {
+			// System.out.println(a);
+			System.out.printf("%3d",a);
+		}
+		
+		
+		
 	}
 
 }
